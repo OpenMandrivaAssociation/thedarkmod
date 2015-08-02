@@ -1,4 +1,5 @@
 %define debug_package	%{nil}
+%define Werror_cflags %nil
 %define name thedarkmod
 %define version 2.03
 %define release 1
