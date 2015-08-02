@@ -55,7 +55,7 @@ arrows of those hired to stop you.
 
 %prep
 %setup -qc %{name}-%{version}
-cat README.urpmi << EOF
+cat > README.urpmi << EOF
 =============================================
 The default resolution is lame , to change it 
 according to your screen resolution, edit the 
