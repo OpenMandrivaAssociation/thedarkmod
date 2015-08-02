@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=The Dark Mod
+GenericName=First Person Stealth Game
+Comment=Using the ioDoom3 engine
+Icon=thedarkmod
+Exec=thedarkmod
+Terminal=false
+Categories=Game;ActionGame;

@@ -1,0 +1,5 @@
+# exclusive arch 32 bit
+addFilter("E: hardcoded-library-path")
+addFilter("W: dangerous-command-in-%post")
+addFilter("W: dangerous-command-in-%postun")
+addFilter("W: mixed-use-of-spaces-and-tabs")
