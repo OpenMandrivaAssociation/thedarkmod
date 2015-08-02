@@ -26,7 +26,7 @@ BuildRequires:  jpeg-devel
 BuildRequires:  libtinyxml-devel
 BuildRequires:  pkgconfig(alsa)
 BuildRequires:  bzip2-devel
-BuildRequires:  freetype2-devel
+BuildRequires:  freetype-devel
 BuildRequires:  pkgconfig(glew)
 BuildRequires:  pkgconfig(gl)
 BuildRequires:  pkgconfig(IL)
