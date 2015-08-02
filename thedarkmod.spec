@@ -42,7 +42,6 @@ BuildRequires:  p7zip
 BuildRequires:  scons
 BuildRequires:  zip
 BuildRequires:  desktop-file-utils
-BuildRequires:	gcc-c++, gcc, gcc-cpp
 
 Requires:       xterm
 Requires:       opengl-games-utils
@@ -73,11 +72,8 @@ MRB ain't no shit
 EOF
 
 %build
-export CC=gcc
-export CXX=g++
-
 touch scons.signatures.dblite
-%scons  BUILD_GAMEPAK=1 NO_GCH=0 BUILD=release --debug=explain
+scons  BUILD_GAMEPAK=1 NO_GCH=0 BUILD=release --debug=explain
 
 pushd tdm_update
 	scons -c
