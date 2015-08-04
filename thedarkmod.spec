@@ -30,7 +30,7 @@ BuildRequires:  bzip2-devel
 BuildRequires:  freetype-devel
 BuildRequires:  pkgconfig(glew)
 BuildRequires:  pkgconfig(gl)
-BuildRequires:  libdevil-devel = 1.7.8
+BuildRequires:  libdevil-old-devel = 1.7.8
 BuildRequires:  pkgconfig(libcurl)
 BuildRequires:  pkgconfig(libpng)
 BuildRequires:  pkgconfig(libssl)
