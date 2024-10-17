@@ -12,7 +12,7 @@ Release:        %{release}
 Summary:        Steampunk Stealth Game
 License:        GPLv3 and CC-BY-SA
 Group:          Games/Arcade
-Url:            http://www.thedarkmod.com/
+Url:            https://www.thedarkmod.com/
 Source0:        http://www.thedarkmod.com/sources/%{name}.%{version}.src.7z
 Source1:        thedarkmod.rpmlintrc
 Source3:        thedarkmod
